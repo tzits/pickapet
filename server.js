@@ -22,13 +22,13 @@ app.get('/profile', function profilePage(req, res) {
 
 //JSON API endpoints
 
+GET
 
+POST
 
+UPDATE
 
-
-
-
-
+DELETE
 
 
 //server
