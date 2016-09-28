@@ -8,8 +8,9 @@ var PetSchema = new Schema({
 	vaccination: Boolean,
 	neutered: Boolean,
 	gender: String,
-	picture: String
-})
+	picture: String,
+	privateOwner: Boolean
+});
 
 var Pet = mongoose.model('Pet', PetSchema);
 
