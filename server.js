@@ -1,0 +1,37 @@
+//imports
+var express = require('express');
+var app = express();
+var mongoose = require('mongoose');
+var bodyParser = require('body-parser');
+
+app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.urlencoded({ extended:: true }));
+
+//datebase
+
+var db = require('./models');
+
+//html endpoints
+app.get('/', function homepage(req, res) {
+	res.sendFile(__dirname + '/views/index.html');
+});
+
+app.get('/profile', function profilePage(req, res) {
+	res.sendFile(__dirname + '/views/profile.html');
+});
+
+//JSON API endpoints
+
+
+
+
+
+
+
+
+
+
+//server
+app.listen(process.env.PORT || 8000, function() {
+	console.log('The puppies are coming! On port 8000...')
+});
