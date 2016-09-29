@@ -41,11 +41,13 @@ app.get('/api/owners/:id', function show(req, res) {
 
 // Get All Pets
 app.get('/api/pets', function index(req, res) {
-	db.Pet.find({}, function(err, allPets) {
-		if (err) {throw err;};
-		res.json(allPets);
+	db.Pet.find().populate('owner')
+		.exec(function(err, pets) {
+			if (err) { return console.log("index error: " + err); }
+			res.json(pets);
 	});
 });
+
 
 // Get One Pet
 app.get('/api/pets/:id', function show(req, res) {
