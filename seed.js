@@ -18,7 +18,7 @@ petList.push({
 	name: "Other Dog",
 	type: "dog",
 	age: "4",
-	vacination: true, 
+	vacination: true,
 	fixed: true,
 	gender: "female",
 	picture: "https://www.instagram.com/p/BKt--NoBSQ7/",
@@ -69,7 +69,7 @@ petList.push({
 	owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "Snuffles",
   type: "cat",
   age: "3",
@@ -80,7 +80,7 @@ petList.push({
   owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "Peanut",
   type: "hamster",
   age: "1",
@@ -91,7 +91,7 @@ petList.push({
   owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "DJ Shadez, MD",
   type: "dog",
   age: "6",
@@ -102,7 +102,7 @@ petList.push({
   owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "Big Bow Wow",
   type: "dog",
   age: "5",
@@ -113,7 +113,7 @@ petList.push({
   owner: {}
 })
 
-petList.push({ 
+petList.push({
   name: "Ms. Sassy",
   type: "turtle",
   age: "3",
@@ -124,7 +124,7 @@ petList.push({
   owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "Bob",
   type: "cat",
   age: "9",
@@ -135,7 +135,7 @@ petList.push({
   owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "Cupcake",
   type: "dog",
   age: "1",
@@ -146,7 +146,7 @@ petList.push({
   owner: [{}]
 })
 
-petList.push({ 
+petList.push({
   name: "Handsome",
   type: "ant",
   age: "1",
@@ -264,7 +264,7 @@ ownerList.push({
 	location: 'Brooklyn, NY'
 });
 
-ownerList.push({   
+ownerList.push({
  	name: "Shirley",
     email: "girleyshirley2hawts@gmail.com",
     location: "San Leandro, CA"
@@ -310,6 +310,6 @@ db.Owner.remove({}, function(err, owners){
 		if (err) { return console.log('Error', err); };
 		console.log("all owners:", owners);
 		console.log('created', ownerList.length, 'owners');
-		process.exit();
+		// process.exit();
 	});
 })
