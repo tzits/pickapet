@@ -294,6 +294,16 @@ ownerList.push({
 	location: '255 Busch Street'
 });
 
+
+
+db.Owner.remove({}, function(err, owners){
+	db.Owner.create(ownerList, function(err, owners){
+		if (err) { return console.log('Error', err); };
+		console.log("all owners:", owners);
+		console.log('created', ownerList.length, 'owners');
+	});
+})
+
 db.Pet.remove({}, function(err, pets){
 
   db.Pet.create(petList, function(err, pets){
@@ -304,12 +314,3 @@ db.Pet.remove({}, function(err, pets){
   });
 
 });
-
-db.Owner.remove({}, function(err, owners){
-	db.Owner.create(ownerList, function(err, owners){
-		if (err) { return console.log('Error', err); };
-		console.log("all owners:", owners);
-		console.log('created', ownerList.length, 'owners');
-		process.exit();
-	});
-})
