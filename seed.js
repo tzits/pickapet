@@ -11,7 +11,7 @@ petList.push({
 	fixed: true,
 	gender: "male",
 	picture: "https://www.instagram.com/p/BK3xfJrhJeP/",
-	owner: [{}]
+	owner: "Ilias"
 })
 
 petList.push({
@@ -22,7 +22,7 @@ petList.push({
 	fixed: true,
 	gender: "female",
 	picture: "https://www.instagram.com/p/BKt--NoBSQ7/",
-	owner: [{}]
+	owner: "Ilias"
 })
 
 petList.push({
@@ -33,7 +33,7 @@ petList.push({
 	fixed: true,
 	gender: "female",
 	picture: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-0/p206x206/11949497_10153072748752727_3155146891262570335_n.jpg?oh=764c714d8d3d33d10ea070c1ea3a9466&oe=5875EFAF',
-	owner: [{}]
+	owner: "Ilias"
 })
 
 petList.push({
@@ -44,7 +44,7 @@ petList.push({
 	fixed: true,
 	gender: "female",
 	picture: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-0/p206x206/1238209_10201027775790085_100547095_n.jpg?oh=40f8930ac8693e44697d0b478a0a4a7c&oe=5868CE72',
-	owner: [{}]
+	owner: "Ilias"
 })
 
 petList.push({
@@ -55,7 +55,7 @@ petList.push({
 	fixed: true,
 	gender: "male",
 	picture: '',
-	owner: [{}]
+	owner: "Ilias"
 })
 
 petList.push({
@@ -66,7 +66,7 @@ petList.push({
 	fixed: true,
 	gender: "female",
 	picture: '',
-	owner: [{}]
+	owner: "Ilias"
 })
 
 petList.push({
@@ -77,7 +77,7 @@ petList.push({
   fixed: true,
   gender: "male",
   image: "http://petful.supercopyeditors.netdna-cdn.com/wp-content/uploads/2016/02/14032864382_0566a75778_c-750x501.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -88,7 +88,7 @@ petList.push({
   fixed: false,
   gender: "male",
   image: "http://www.mrjohnsons.co.uk/uploads/small/copy_hamster_nutc.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -99,7 +99,7 @@ petList.push({
   fixed: true,
   gender: "female",
   image: "http://1.bp.blogspot.com/-4LEQPEDj4IQ/UD6pwk3dwLI/AAAAAAAAAjI/mzmMLCC5P5U/s640/black-poodle-ch%2Bjaset's%2Bsatisfaction.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -110,7 +110,7 @@ petList.push({
   fixed: true,
   gender: "male",
   image: "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11358034_1458243211142525_1167013190_n.jpg",
-  owner: {}
+  owner: "Ilias"
 })
 
 petList.push({
@@ -121,7 +121,7 @@ petList.push({
   fixed: false,
   gender: "female",
   image: "http://www.thepetmatchmaker.com/wp-content/uploads/2014/08/fd428d2622b607196dab24e277422cbf-1.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -132,7 +132,7 @@ petList.push({
   fixed: true,
   gender: "male",
   image: "https://media.giphy.com/media/pVkmGyqYRt4qY/giphy-facebook_s.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -143,7 +143,7 @@ petList.push({
   fixed: false,
   gender: "female",
   image: "http://www.lazerhorse.org/wp-content/uploads/2014/06/Pomeranian-Puppy-sleeping.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -154,7 +154,7 @@ petList.push({
   fixed: false,
   gender: "male",
   image: "http://www.indianapest.com/images/Ant_-_10.jpg",
-  owner: [{}]
+  owner: "Ilias"
 })
 
 petList.push({
@@ -165,7 +165,7 @@ petList.push({
   fixed: true,
   gender: "male",
   image: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13150791_645581085597263_1211879218_n.jpg?ig_cache_key=MTI0NjYzODY4MjcwODMwNzExNQ%3D%3D.2",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -176,7 +176,7 @@ petList.push({
   fixed: true,
   gender: "male",
   image: "http://www.coupay.com/topoften/wp-content/uploads/2014/01/images-33.jpg",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -187,7 +187,7 @@ petList.push({
   fixed: true,
   gender: "male",
   image: "https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15463-f13/www/proj2/www/bcharas/worst/garfield/garfield_cat.jpg",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -198,7 +198,7 @@ petList.push({
   fixed: false,
   gender: "male",
   image: "http://www.animalspot.net/wp-content/uploads/2016/02/Toco-Toucan-Pictures.jpg",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -209,7 +209,7 @@ petList.push({
   fixed: true,
   gender: "female",
   image: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13473237_1758580281032310_436342857_n.jpg?ig_cache_key=MTI4Mzg0MTQxMDMyNzU2MDEzMw%3D%3D.2",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -220,7 +220,7 @@ petList.push({
   fixed: true,
   gender: "female",
   image: "https://upload.wikimedia.org/wikipedia/commons/0/02/Chinchilla-Soelvmarmorert.jpg",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -231,7 +231,7 @@ petList.push({
   fixed: true,
   gender: "female",
   image: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13707160_272207893151806_346874866_n.jpg?ig_cache_key=MTMxMDc3OTY3MzY4OTM1ODU1MA%3D%3D.2",
-  owner: [{}]
+  owner: "Ilias"
 });
 
 petList.push({
@@ -242,14 +242,14 @@ petList.push({
   fixed: true,
   gender: 'male',
   image: 'https://media.salon.com/2002/07/stuart_little_2.jpg',
-  owner: [{}]
+  owner: "Ilias"
 });
 
 var ownerList = [];
 
 ownerList.push({
-	name: 'Illias',
-	email: 'Illias@generalassemb.ly',
+	name: 'Ilias',
+	email: 'Ilias@generalassemb.ly',
 	location: '15 Lomardi Street',
 });
 
@@ -295,14 +295,37 @@ ownerList.push({
 });
 
 db.Pet.remove({}, function(err, pets){
-
-  db.Pet.create(petList, function(err, pets){
-    if (err) { return console.log('ERROR', err); };
-    console.log("all pets:", pets);
-    console.log("created", petList.length, "pets");
-    process.exit();
+  petList.forEach(function (petData) {
+    var pet = new db.Pet({
+      name: petData.name,
+      type: petData.type,
+      age: petData.age,
+      vaccination: petData.vaccination,
+      fixed: petData.fixed,
+      gender: petData.gender,
+      picture: petData.picture
+    });
+    db.Owner.findOne({name: petData.owner}, function (err, foundOwner) {
+      if (err) {
+        console.log('we fucked up');
+        return;
+      }
+      pet.owner = foundOwner;
+      pet.save(function(err, savedPet) {
+        if (err) {
+          return console.log(err);
+        }
+        // console.log('saved' + savedPet.name + ' owned by ' + foundOwner.name);
+      });
+    });
   });
-
+  // db.Pet.create(petList, function(err, pets){
+  //   if (err) { return console.log('ERROR', err); };
+  //   console.log("all pets:", pets);
+  //   console.log("created", petList.length, "pets");
+  //   process.exit();
+  // });
+  // db.Owner.findOne({name: })
 });
 
 db.Owner.remove({}, function(err, owners){
@@ -310,6 +333,5 @@ db.Owner.remove({}, function(err, owners){
 		if (err) { return console.log('Error', err); };
 		console.log("all owners:", owners);
 		console.log('created', ownerList.length, 'owners');
-		// process.exit();
 	});
 })
