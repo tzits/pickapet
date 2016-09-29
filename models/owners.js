@@ -7,7 +7,6 @@ var OwnerSchema = new Schema({
 	name: String,
 	email: String,
 	location: String,
-	pets: [ Pet.schema ]
 });
 
 var Owner = mongoose.model('Owner', OwnerSchema);
