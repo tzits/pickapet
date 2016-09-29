@@ -1,15 +1,17 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+var Owner = require('./owners');
+
 var PetSchema = new Schema({
 	name: String,
 	type: String,
 	age: String,
 	vaccination: Boolean,
-	neutered: Boolean,
+	fixed: Boolean,
 	gender: String,
 	picture: String,
-	privateOwner: Boolean
+	owner: [Owner.schema]
 });
 
 var Pet = mongoose.model('Pet', PetSchema);

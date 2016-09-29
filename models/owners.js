@@ -6,8 +6,7 @@ var Pet = require('./pets');
 var OwnerSchema = new Schema({
 	name: String,
 	email: String,
-	location: String,
-	pets: [ Pet.schema ]
+	location: String
 });
 
 var Owner = mongoose.model('Owner', OwnerSchema);
