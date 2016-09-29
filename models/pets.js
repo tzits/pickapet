@@ -10,7 +10,6 @@ var PetSchema = new Schema({
 	gender: String,
 	picture: String,
 	owner: [Owner.schema]
-
 });
 
 var Pet = mongoose.model('Pet', PetSchema);
