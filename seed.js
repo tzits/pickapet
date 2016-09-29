@@ -10,7 +10,7 @@ petList.push({
 	vaccination: true,
 	fixed: true,
 	gender: "male",
-	picture: "https://www.instagram.com/p/BK3xfJrhJeP/",
+	picture: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/14128919_1090735680973847_1968720665_n.jpg?ig_cache_key=MTMzMzAwNjc5NzA2MTM1NTUxMQ%3D%3D.2",
 	owner: "Ilias"
 })
 
@@ -21,7 +21,7 @@ petList.push({
 	vacination: true,
 	fixed: true,
 	gender: "female",
-	picture: "https://www.instagram.com/p/BKt--NoBSQ7/",
+	picture: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/14280350_175479136192510_3532240967484571648_n.jpg?ig_cache_key=MTM0NjAwODgxNzc3NDk2MTcyMw%3D%3D.2",
 	owner: "Ilias"
 })
 
@@ -76,7 +76,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "male",
-  image: "http://petful.supercopyeditors.netdna-cdn.com/wp-content/uploads/2016/02/14032864382_0566a75778_c-750x501.jpg",
+  picture: "http://petful.supercopyeditors.netdna-cdn.com/wp-content/uploads/2016/02/14032864382_0566a75778_c-750x501.jpg",
   owner: "Ilias"
 })
 
@@ -87,7 +87,7 @@ petList.push({
   vaccination: false,
   fixed: false,
   gender: "male",
-  image: "http://www.mrjohnsons.co.uk/uploads/small/copy_hamster_nutc.jpg",
+  picture: "http://www.mrjohnsons.co.uk/uploads/small/copy_hamster_nutc.jpg",
   owner: "Ilias"
 })
 
@@ -98,7 +98,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "female",
-  image: "http://1.bp.blogspot.com/-4LEQPEDj4IQ/UD6pwk3dwLI/AAAAAAAAAjI/mzmMLCC5P5U/s640/black-poodle-ch%2Bjaset's%2Bsatisfaction.jpg",
+  picture: "http://1.bp.blogspot.com/-4LEQPEDj4IQ/UD6pwk3dwLI/AAAAAAAAAjI/mzmMLCC5P5U/s640/black-poodle-ch%2Bjaset's%2Bsatisfaction.jpg",
   owner: "Ilias"
 })
 
@@ -109,7 +109,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "male",
-  image: "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11358034_1458243211142525_1167013190_n.jpg",
+  picture: "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11358034_1458243211142525_1167013190_n.jpg",
   owner: "Ilias"
 })
 
@@ -120,7 +120,7 @@ petList.push({
   vaccination: false,
   fixed: false,
   gender: "female",
-  image: "http://www.thepetmatchmaker.com/wp-content/uploads/2014/08/fd428d2622b607196dab24e277422cbf-1.jpg",
+  picture: "http://www.thepetmatchmaker.com/wp-content/uploads/2014/08/fd428d2622b607196dab24e277422cbf-1.jpg",
   owner: "Ilias"
 })
 
@@ -131,7 +131,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "male",
-  image: "https://media.giphy.com/media/pVkmGyqYRt4qY/giphy-facebook_s.jpg",
+  picture: "https://media.giphy.com/media/pVkmGyqYRt4qY/giphy-facebook_s.jpg",
   owner: "Ilias"
 })
 
@@ -142,7 +142,7 @@ petList.push({
   vaccination: false,
   fixed: false,
   gender: "female",
-  image: "http://www.lazerhorse.org/wp-content/uploads/2014/06/Pomeranian-Puppy-sleeping.jpg",
+  picture: "http://www.lazerhorse.org/wp-content/uploads/2014/06/Pomeranian-Puppy-sleeping.jpg",
   owner: "Ilias"
 })
 
@@ -153,7 +153,7 @@ petList.push({
   vaccination: false,
   fixed: false,
   gender: "male",
-  image: "http://www.indianapest.com/images/Ant_-_10.jpg",
+  picture: "http://www.indianapest.com/images/Ant_-_10.jpg",
   owner: "Ilias"
 })
 
@@ -164,7 +164,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "male",
-  image: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13150791_645581085597263_1211879218_n.jpg?ig_cache_key=MTI0NjYzODY4MjcwODMwNzExNQ%3D%3D.2",
+  picture: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13150791_645581085597263_1211879218_n.jpg?ig_cache_key=MTI0NjYzODY4MjcwODMwNzExNQ%3D%3D.2",
   owner: "Ilias"
 });
 
@@ -175,7 +175,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "male",
-  image: "http://www.coupay.com/topoften/wp-content/uploads/2014/01/images-33.jpg",
+  picture: "http://www.coupay.com/topoften/wp-content/uploads/2014/01/images-33.jpg",
   owner: "Ilias"
 });
 
@@ -186,7 +186,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "male",
-  image: "https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15463-f13/www/proj2/www/bcharas/worst/garfield/garfield_cat.jpg",
+  picture: "https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15463-f13/www/proj2/www/bcharas/worst/garfield/garfield_cat.jpg",
   owner: "Ilias"
 });
 
@@ -197,7 +197,7 @@ petList.push({
   vaccination: true,
   fixed: false,
   gender: "male",
-  image: "http://www.animalspot.net/wp-content/uploads/2016/02/Toco-Toucan-Pictures.jpg",
+  picture: "http://www.animalspot.net/wp-content/uploads/2016/02/Toco-Toucan-Pictures.jpg",
   owner: "Ilias"
 });
 
@@ -208,7 +208,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "female",
-  image: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13473237_1758580281032310_436342857_n.jpg?ig_cache_key=MTI4Mzg0MTQxMDMyNzU2MDEzMw%3D%3D.2",
+  picture: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13473237_1758580281032310_436342857_n.jpg?ig_cache_key=MTI4Mzg0MTQxMDMyNzU2MDEzMw%3D%3D.2",
   owner: "Ilias"
 });
 
@@ -219,7 +219,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "female",
-  image: "https://upload.wikimedia.org/wikipedia/commons/0/02/Chinchilla-Soelvmarmorert.jpg",
+  picture: "https://upload.wikimedia.org/wikipedia/commons/0/02/Chinchilla-Soelvmarmorert.jpg",
   owner: "Ilias"
 });
 
@@ -230,7 +230,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: "female",
-  image: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13707160_272207893151806_346874866_n.jpg?ig_cache_key=MTMxMDc3OTY3MzY4OTM1ODU1MA%3D%3D.2",
+  picture: "https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/13707160_272207893151806_346874866_n.jpg?ig_cache_key=MTMxMDc3OTY3MzY4OTM1ODU1MA%3D%3D.2",
   owner: "Ilias"
 });
 
@@ -241,7 +241,7 @@ petList.push({
   vaccination: true,
   fixed: true,
   gender: 'male',
-  image: 'https://media.salon.com/2002/07/stuart_little_2.jpg',
+  picture: 'https://media.salon.com/2002/07/stuart_little_2.jpg',
   owner: "Ilias"
 });
 
