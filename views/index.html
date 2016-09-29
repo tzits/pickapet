@@ -47,14 +47,15 @@
                 <!-- BEGIN PET INTERNAL ROW -->
                   <div class='row'>
                     <div class="col-md-3 col-xs-12 thumbnail pet-image">
-                      <!-- <img src="images/800x800.png" alt="pet image"> -->
+                      <img src={{image}}>
+
                     </div>
 
                     <div class="col-md-9 col-xs-12">
                       <ul class="list-group">
                         <li class="list-group-item">
                           <h4 class='inline-header'>{{name}}, {{age}} {{gender}}</h4>
-                          <h6 class='inline-location'>{{location}}</h6>
+                          <h6 class='inline-location'>{{owner.location}}</h6>
                           <span class='pet-description'>Description goes here</span>
                           <span class='input-pet-name' style='display:none;'>
                             <input id="petName" name="petName" type="text" value="{{name}}">
