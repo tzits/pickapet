@@ -6,10 +6,11 @@ var PetSchema = new Schema({
 	type: String,
 	age: Number,
 	vaccination: Boolean,
-	neutered: Boolean,
+	fixed: Boolean,
 	gender: String,
 	picture: String,
-	privateOwner: Boolean
+	owner: [Owner.schema]
+
 });
 
 var Pet = mongoose.model('Pet', PetSchema);
