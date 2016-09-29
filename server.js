@@ -5,11 +5,11 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
 app.use(express.static(__dirname + '/public'));
-app.use(bodyParser.urlencoded({ extended:: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //datebase
 
-var db = require('./models');
+var db = require('/models');
 
 //html endpoints
 app.get('/', function homepage(req, res) {
