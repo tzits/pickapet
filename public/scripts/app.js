@@ -7,8 +7,8 @@ $(document).ready(function() {
 
 //get all pets as site turns on
 	$.get('/api/pets').success(function(pets) {
-		pets.forEach(function() {
-			renderPet();
+		pets.forEach(function(pet) {
+			renderPet(pet);
 		});
 	});
 
