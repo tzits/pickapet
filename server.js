@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //datebase
 
-var db = require('/models');
+var db = require('./models');
 
 //html endpoints
 app.get('/', function homepage(req, res) {
