@@ -309,8 +309,7 @@ db.Owner.remove({}, function(err, owners){
 	db.Owner.create(ownerList, function(err, owners){
 		if (err) { return console.log('Error', err); };
 		console.log("all owners:", owners);
-		console.log('created', ownerList.length, 'pets');
+		console.log('created', ownerList.length, 'owners');
 		process.exit();
 	});
 })
-
