@@ -6,7 +6,7 @@ var Owner = require('./owners');
 var PetSchema = new Schema({
 	name: String,
 	type: String,
-	age: Number,
+	age: String,
 	vaccination: Boolean,
 	fixed: Boolean,
 	gender: String,
