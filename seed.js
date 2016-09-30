@@ -319,6 +319,7 @@ db.Pet.remove({}, function(err, pets){
       });
     });
   });
+})
  
 
 db.Owner.remove({}, function(err, owners){
@@ -329,13 +330,4 @@ db.Owner.remove({}, function(err, owners){
 	});
 })
 
-db.Pet.remove({}, function(err, pets){
 
-  db.Pet.create(petList, function(err, pets){
-    if (err) { return console.log('ERROR', err); };
-    console.log("all pets:", pets);
-    console.log("created", petList.length, "pets");
-    process.exit();
-  });
-
-});
