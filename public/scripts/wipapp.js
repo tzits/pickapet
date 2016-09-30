@@ -6,7 +6,7 @@ var newPet = {
 	fixed: true,
 	gender: "",
 	picture: "",
-	owner: ""
+	owner: {}
 }
 var newOwner = {
 	name: "",
@@ -99,7 +99,6 @@ $(document).ready(function() {
 			e.preventDefault();
 			//pet info added and submitted
 			$('#newPet').toggle();	
-			console.log("New Animal");
 			newPet.name = $('#newPetName').val();
 			newPet.picture = $('#petPicture').val();
 			newPet.age = $('#petAge').val();
@@ -120,8 +119,16 @@ $(document).ready(function() {
 			}
 			newPet.type = $('#petType').val();
 			newPet.owner = $('#ownerName').val().toLowerCase()
-			console.log(newPet)
-			});
+			$.ajax({
+	    		method: 'POST',
+	    		url: '/api/pets',
+	    		data: newPet,
+	    		succes: console.log('hooray'),
+	    		error: newPetError
+	    	})
+	    	console.log("New Animal");
+
+		});
 			
 	    		
 	    $('#isNotOwner').on('click', function(e) {
@@ -149,11 +156,8 @@ $(document).ready(function() {
 	    	})
 	    })
 
-	    })
+	})
 
-// 	})
-	
-// })
 
 
 function renderPet(pet) {
@@ -164,44 +168,16 @@ function renderPet(pet) {
 	$('#pets').prepend(html);
 }
 
-// function handleNewInput(data) {
-
-// 	var newPet = new Pet();
-// 	newPet.name = data.name;
-	// newPet.type = petType.val();
-// 	newPet.owner.ref = data.ownerName;
-// 	newPet.picture = data.picture 
-// 	if ($('#petFixed').prop('checked') == true) {
-// 		newPet.fixed = true;
-// 	} else {
-// 		newPet.fixed = false;
-// 	}
-// 	if ($('petVaccination:checked') = true) {
-// 		newPet.vaccination = true;
-// 	} else {
-// 		newPet.vaccination = false;
-// 	}
-
-
-// 	var newOwner = new Owner();
-// 	newOwner.name = data.ownerName;
-// 	newOwner.location = data.ownerLocation;
-// 	newOwner.email = data.ownerEmail;
-
-// }
-function handleSuccess() {
-	console.log('success')
-}
-function postError() {
-	console.log("it's not gonna work")
-}
-
 function newOwnerSuccess() {
 	console.log('yay new owner')
 }
 function newOwnerError() {
 	console.log('no owner')
 }
-
-
+function newPetSuccess() {
+	console.log('pets for sale!')
+}
+function newPetError() {
+	console.log('rejected')
+}
 
