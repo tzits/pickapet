@@ -60,18 +60,19 @@ app.get('/api/pets/:id', function show(req, res) {
 
 
 // Create pet
-app.post('/api/pets', function create(req, res) {
+app.post('/api/pets', function(req, res) {
 	db.Pet.create(req.body, function(err, pet) {
-		if (err) {throw err;};
-		res.json(pet);
-	});
+	    if (err) { console.log('error', err); }
+	    console.log(req.body);
+	    res.json(pet);
+  	});
 });
 
 // Delete pet
 app.delete('/api/pets/:id', function destroy(req,res) {
 	var petId = req.params.id;
 	db.Pet.findByIdAndRemove(petId, function(err,foundPet) {
-		if (err) { throw err; };
+		if (err) { console.log(err); };
 		res.json(foundPet + " is gone forever :(");
 	});
 });
